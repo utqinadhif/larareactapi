@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react"
+import { Navigate, Route, NavLink, HashRouter } from "react-router-dom"
 
 const About = () => {
     return (
-        <div>react about</div>
+        <>
+            <div>react about</div>
+            <NavLink to="/">Home</NavLink>
+        </>
     )
 }
 
