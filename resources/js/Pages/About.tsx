@@ -1,11 +1,12 @@
 import React from "react"
 import { Navigate, Route, NavLink, HashRouter } from "react-router-dom"
+import Navbar from "../Components/Navbar"
 
 const About = () => {
     return (
         <>
-            <div>react about</div>
-            <NavLink to="/">Home</NavLink>
+            <Navbar />
+            <div className="text-red-500">react about</div>
         </>
     )
 }
